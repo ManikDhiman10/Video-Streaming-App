@@ -1,0 +1,51 @@
+{
+	"info": {
+		"_postman_id": "a8631398-c31a-4c08-b53a-c7ae00ab73c3",
+		"name": "Video Streaming Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40270529"
+	},
+	"item": [
+		{
+			"name": "Fetch Video Metadata",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/videos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"videos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Stream Video",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/videos/<filename>",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"videos",
+						"<filename>"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
