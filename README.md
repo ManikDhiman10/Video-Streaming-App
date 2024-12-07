@@ -1,5 +1,3 @@
-# my-video-streaming-app
-Video Streaming Platform using React.js, AWS S3 and Flask, MongoDB
 # Video Streaming Application
 
 This repository hosts the **Video Streaming Application**, a full-stack web application that allows users to browse and stream videos directly through their browser. It is built with a **React.js** frontend and a **Flask, AWS S3, MongoDB** backend.
